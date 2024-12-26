@@ -15,13 +15,7 @@ This project implements an **Image Super Resolution** technique using **Autoenco
 
 ---
 
-## Implementation Details
-1. **Data Preparation**:
-   - The dataset is preprocessed by splitting the validation set into a separate validation and test set.
-   - Low-resolution and high-resolution images are prepared as input-output pairs.
 
-2. **Model Training**:
-   - The autoencoder is trained on the dataset to learn mappings from low-resolution inputs to high-resolution outputs.
    - Techniques such as early stopping and model checkpoints are used to ensure robust performance.
 
 3. **Evaluation**:
